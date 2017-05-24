@@ -1,0 +1,8 @@
+---
+layout: post
+title:  "This is my blog"
+date:   2017-05-24 13:50:00
+categories: welcome
+---
+
+I decided to create a blog.

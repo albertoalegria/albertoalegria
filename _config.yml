@@ -75,3 +75,6 @@ defaults:
     values:
       layout: post
       read_time: true
+
+plugins:
+  - jekyll-seo-tag

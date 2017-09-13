@@ -18,7 +18,7 @@ title: Alberto Alegría
 email: albertoalegria01@gmail.com
 description: This is my blog
 baseurl: # the optional subpath of your site, e.g. "/blog"
-url: # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
+url: # the base hostname & protocol for your site e.g. "https://mmistakes.github.io" https://albertoalegria.github.io/
 author:
   name: Alberto Alegría
   twitter: albertoAIDev
@@ -76,5 +76,5 @@ defaults:
       layout: post
       read_time: true
 
-plugins:
-  - jekyll-seo-tag
+#Facebook Sharing
+facebook_app_id: 1924028431198155

@@ -3,7 +3,9 @@ layout: post
 title:  "RESTful services with Spring Boot - Part 1"
 date:   2017-09-12 23:30:00
 categories: spring-boot
+permalink: /:categories/:title/
 ---
+
 This article is the first of a series that's intended to guide you through the Spring Boot basics. In this part we create our first Spring Boot project and our first REST controller.
 
 ## What is Spring Boot?
@@ -139,7 +141,7 @@ By default, Spring Boot uses the port 8080 to start the server, so in order to c
 
 That's all!
 
-So far we created our first Spring Boot project and our first controller. In the next article we are going to create our first model and we will learn to store records in databases, as well as other kinds of request methods. 
+So far we created our first Spring Boot project and our first controller. In the next article we are going to create our first entity and we will learn to store records in a database, as well as other kinds of request methods. 
 
 
 

@@ -8,7 +8,7 @@ permalink: /:categories/:title/
 
 This article is the first of a series that's intended to guide you through the Spring Boot basics. In this part we create our first Spring Boot project and our first REST controller.
 
-## What is Spring Boot?
+## 1 What is Spring Boot?
 Spring Boot is a tool that helps us to create Spring based projects with _almost_ zero configuration, speeding up the development process, this makes it our best choice when creating new projects.
 
 Its [primary goal][1] is:
@@ -22,7 +22,7 @@ Its [primary goal][1] is:
 
 Even though there is a lot more information about Spring Boot, it's time to jump directly into the action. In this case we are going to create a REST service. 
 
-## Creating a new project
+## 2 Creating a new project
 The first thing you might want to do when creating a new Spring Boot project is going to the [Spring Initializr][2] page. This site allows us to download either a Maven or Gradle project with all our dependencies included. How cool is that?
 
 The site looks like this:
@@ -32,6 +32,8 @@ The site looks like this:
 The next step is to choose whether you need Maven or Gradle, if you are using Java, Kotlin or Groovy and the Spring Boot version. In this case, I prefer Gradle over Maven, I’m going to use Java and the current Spring Boot version.
 
 In the Project Metadata fields you need to write the group id and the artifact, but, what are those? Well, in plain English, the group id is often composed as "com." + your name or company name (without spaces), and the artifact is the project name.
+
+### 2.1 Dependencies
 
 Now it's time to select the project dependencies. Our dependencies are:
 
@@ -69,7 +71,7 @@ The IDE now looks like this:
 
 See that message at the bottom that says Refreshing Gradle project? When this process is over, we will be ready to code.
 
-## File structure
+## 3 File structure
 Before we started, let's have a look at the file structure, shall we?
 
 ![structure]({{site.url}}/assets/images/posts/20170912/structure.png)
@@ -83,7 +85,7 @@ The only task of our server is to manage the REST requests, so, both of these di
 
 The _test_ directory is used for, well, tests. More of that coming soon.
 
-## Controllers
+## 4 Controllers
 First of all, what's a controller? A controller is a component that manages HTTP requests. These components are identified with the `@Controller` annotation. Since we are creating a REST service, we will use `@RestController`.
 
 Let's open our main class, given our artifact name, our main class will be _RestApplication_:
